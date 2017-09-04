@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
+int selectionSort()
 {
     int x[] = {10,1,4,2,3};
     for(int i=0; i<(sizeof(x)/sizeof(int)) ; i++)
