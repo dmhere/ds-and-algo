@@ -3,11 +3,9 @@
 
 #include <iostream>
 using namespace std;
-class sorting{
-public:
-    void insertionSort();
-    void bubbleSort();
-};
 
+int insertionSort();
+int bubbleSort();
+int selectionSort();
 
 #endif // SORTING_H_INCLUDED

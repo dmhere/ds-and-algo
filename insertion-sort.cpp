@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int insertionSort()
+int insertionSortx()
 {
 
     int x[] = {10,9,4,2,3,8,5,6,7,1};

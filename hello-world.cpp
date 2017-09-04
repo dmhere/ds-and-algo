@@ -1,18 +1,19 @@
 #include <iostream>
 using namespace std;
-//#include "sorting.h"
-//extern void selectionSort();
-extern int bubbleSort();
-extern int insertionSort();
-
-int def()
+#include "sorting.h"
+/*
+int selectionSort();
+int bubbleSort();
+int insertionSort();
+*/
+int main()
 {
     //sorting s;
-    /*cout<<"bubble sort"<<endl;
+    cout<<"bubble sort"<<endl;
     bubbleSort();
     cout<<endl<<endl<<"insertion sort"<<endl<<endl;
-    insertionSort();*/
-    cout<<endl<<endl<<"insertion sort"<<endl<<endl;
-    //selectionSort();
+    insertionSort();
+    cout<<endl<<endl<<"selection sort"<<endl<<endl;
+    selectionSort();
     return 0;
 }
